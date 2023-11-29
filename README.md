@@ -1,6 +1,12 @@
+---
+runme:
+  id: 01HGDZG0670GZ1XJVGE7366T52
+  version: v2.0
+---
+
 # brewhaus
 
-This template should help get you started developing with Vue 3 in Vite.
+Fictional Brewing Company Website built with Vue3 created with the standard vue creation utility!
 
 ## Recommended IDE Setup
 
@@ -12,30 +18,30 @@ See [Vite Configuration Reference](https://vitejs.dev/config/).
 
 ## Project Setup
 
-```sh
+```sh {"id":"01HGDZG0670GZ1XJVGDZDM8KTD"}
 npm install
 ```
 
 ### Compile and Hot-Reload for Development
 
-```sh
+```sh {"id":"01HGDZG0670GZ1XJVGE10PM6XX"}
 npm run dev
 ```
 
 ### Compile and Minify for Production
 
-```sh
+```sh {"id":"01HGDZG0670GZ1XJVGE216DZ37"}
 npm run build
 ```
 
 ### Run Unit Tests with [Vitest](https://vitest.dev/)
 
-```sh
+```sh {"id":"01HGDZG0670GZ1XJVGE26G3YBQ"}
 npm run test:unit
 ```
 
 ### Lint with [ESLint](https://eslint.org/)
 
-```sh
+```sh {"id":"01HGDZG0670GZ1XJVGE5MAE0MZ"}
 npm run lint
 ```
