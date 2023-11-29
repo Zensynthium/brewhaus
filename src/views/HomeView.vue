@@ -74,7 +74,8 @@ onMounted(async () => {
             <div class="col-md-8">
               <div class="card-body text-center">
                 <h5 class="card-title">{{ beer.name }}</h5>
-                <p class="card-text">{{ truncateText(beer.description) }}</p>
+                <p class="card-text d-none d-md-block">{{ truncateText(beer.description) }}</p>
+                <p class="card-text d-block d-md-none">{{ beer.description }}</p>
                 <router-link :to="`/details/${beer.id}`" class="btn btn-primary m-auto">Details</router-link>
               </div>
             </div>
